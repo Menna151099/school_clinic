@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* start header */
+
+header{
+    color: white;
+    height: 95vh;
+    background: url(img/download.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 15px;
+    font-family: sans-serif;
+    height: 100px;
+
+}
+
+nav .logo img {
+    width: 30%;
+    margin-left: 80%;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+    display: flex;
+}
+
+nav ul li a{
+    color: rgba(255, 255, 255, 0.708);
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 100px;
+    padding: -50px;
+}
+
+nav .button-head{
+    padding: 5px;
+    width: 70px;
+    background-color: rgb(230, 146, 107);
+    color: white;
+    font-family: sans-serif;
+    border: 0;
+    margin-right: 300px;
+}
+
+.center {
+    width: 20%;
+    height: 35%;
+    font-size: 40px;
+    margin-left: 20%;
+    background-color: rgba(0, 128, 0, 0.3);
+    padding: 30px;
+    padding-top: 40px;
+    padding-right: 50px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius:30px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: start;
+}
+
+/* end header */
+/* start section */
+
+h3{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(7, 39, 19);
+    padding: 20px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+hr{
+    text-align: center;
+    width: 7%;
+    margin: 0 auto; 
+    border: none;
+    border-top: 5px solid rgb(225, 78, 14) 
+}
+
+.section1{
+    height: 50vh;
+    padding: 50px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.section1 .photosection1{
+    padding-left: 220px;
+    padding-top: 20px;
+}
+
+.section1 .contentsection1 .text1{
+    font-size: 14px;
+    font-family:cursive;
+    padding: 50px 110px;
+    font-size:medium;
+    
+}
+
+.section1 .contentsection1  .text1 span{
+    color: rgb(85, 201, 162);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+/* endsection */
+
+/* startsection */
+.section2 {
+    padding-top: 150px;
+    height: 100vh;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: 
+        url(img/i-love-my-job-so-much_329181-2178.png), 
+        url(img/Path\ 62.png);
+    background-position: top right, top right;
+    background-blend-mode: multiply; 
+}
+
+.section2 h3 {
+    padding: 30px 0px 0px 50px;
+    font-family: cursive;
+    color: #f9f2f2d7;
+}
+
+.imgs span{
+    color: rgb(85, 201, 162);
+}
+
+.imgs {
+    padding: 20px; 
+    display: flex; 
+    font-family: serif;
+    justify-content: center;
+}
+
+.imgs > div {
+    background-color: white;
+    margin-right: 35px;
+    padding: 10px;
+    width: 220px;
+    height: 290px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.imgs > div img {
+    display: block;
+    margin: 10px 20px 20px 25px;
+    width: 80%;
+    height: auto;
+}
+
+.imgs p {
+    text-align: start;
+    padding: 10px;
+}
+/* endsection */
+
+/* startsection */
+.section3{
+    height: 30vh;
+    margin-top: 50px;
+}
+.section3 .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* endsection */
+
+/* startfooter */
+footer{
+    height: 40vh;
+    color: white;
+    background-color: rgb(15, 123, 82);
+    border-radius: 150px 150px 0px 0px;
+}
+
+.footerone{
+    display: flex;
+}
+
+.footerone h3{
+    margin-right: 250px;
+    color: aliceblue;
+}
+
+.footerone .right{
+    margin: 60px 100px 60px 80px;
+    text-align: center;
+}
+
+.footerone .right p{
+    padding: 20px;
+    width: 60%;
+}
+
+.footerone .left{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    gap: 100px;
+}
+
+.left p {
+    margin-bottom: 10px; 
+    line-height: 2;
+}
+
+.footerone .left p span{
+    color: rgb(228, 131, 57);
+}
+
+footer .footertwo{
+    margin-left: 170px;
+}
+
+footer .footertwo .iconfooter i{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* endfooter */
+
